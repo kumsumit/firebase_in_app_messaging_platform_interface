@@ -1,0 +1,29 @@
+name: firebase_in_app_messaging_platform_interface
+description: A common platform interface for the firebase_in_app_messaging plugin.
+homepage: https://github.com/firebase/flutterfire/tree/main/packages/firebase_in_app_messaging/firebase_in_app_messagin_platform_interface
+repository: https://github.com/firebase/flutterfire/tree/main/packages/firebase_in_app_messaging/firebase_in_app_messagin_platform_interface
+publish_to: none
+version: 0.2.5+28
+
+
+environment:
+  sdk: '^3.13.0'
+  flutter: '>=3.47.0'
+
+dependencies:
+  flutterfire_internals: 
+    git: https://github.com/kumsumit/flutterfire_internals.git
+  firebase_core: 
+    git: https://github.com/kumsumit/firebase_core.git
+  flutter:
+    sdk: flutter
+  meta: ^1.19.0
+  plugin_platform_interface: 
+    git: https://github.com/kumsumit/plugin_platform_interface.git
+
+dev_dependencies:
+  firebase_core_platform_interface: 
+    git: https://github.com/kumsumit/firebase_core_platform_interface.git
+  flutter_test:
+    sdk: flutter
+  pigeon: 29.0.4
